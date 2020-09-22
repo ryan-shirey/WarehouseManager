@@ -1,0 +1,25 @@
+#include "FoodItem.h"
+
+using namespace std;
+
+FoodItem::FoodItem()
+{
+  
+}
+
+FoodItem::FoodItem(string upc, string name)
+{
+  this->upc = upc;
+  this->name = name;
+}
+
+string FoodItem::getUpc()
+{
+  return upc;
+}
+
+string FoodItem::getName()
+{
+  return name;
+}
+
